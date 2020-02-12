@@ -7,7 +7,7 @@ namespace XCarpaccio.Models
 
         public override string ToString()
         {
-            return $"[{Type}] {Content}";
+            return $"{{\"{Type}\": {Content} }}";
         }
     }
 }
